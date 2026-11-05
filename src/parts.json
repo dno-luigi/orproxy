@@ -1,0 +1,27 @@
+{
+ "component": "orproxy",
+ "derived_from": "bundle/worker.js 94ce71cb32fc2e3913ab48701c3cc9f54e18093df62c06adaf55546d98b2b6f6",
+ "parts": [
+  {
+   "file": "000-preamble.js",
+   "start_line": 1,
+   "end_line": 1,
+   "bytes": 17,
+   "sha256": "edb39066576de2331de8a10bd0948cc9b588c68bc41b14c37d13b12351be5c5c"
+  },
+  {
+   "file": "001-worker_default.js",
+   "start_line": 2,
+   "end_line": 14,
+   "bytes": 413,
+   "sha256": "dc05c60cc9fb33e9e7b3717ea3b95fb6393a1ebdc8cf534effc5ab2e81b81960"
+  },
+  {
+   "file": "002-preamble.js",
+   "start_line": 15,
+   "end_line": 18,
+   "bytes": 74,
+   "sha256": "2dec108891463ec64d0df724ac2f26fb2ee5c86045703856062e043a88d6b206"
+  }
+ ]
+}
