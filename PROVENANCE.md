@@ -6,7 +6,7 @@
 | Version | v43 |
 | Version id | `3180df9f-c8b4-492f-9db0-bef8496d0ecd` |
 | Deployed (UTC) | 2026-11-05T16:14:30.431399Z |
-| Compatibility date | None |
+| Compatibility date | 2026-01-12 |
 | Retrieved (UTC) | 2026-11-05T19:20:28.433148Z |
 | Bundle bytes | 504 |
 | SHA-256 | `94ce71cb32fc2e3913ab48701c3cc9f54e18093df62c06adaf55546d98b2b6f6` |
