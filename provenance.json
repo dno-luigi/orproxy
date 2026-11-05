@@ -1,0 +1,45 @@
+{
+ "component": "orproxy",
+ "cloudflare_script_name": "orproxy",
+ "version_number": 43,
+ "version_id": "3180df9f-c8b4-492f-9db0-bef8496d0ecd",
+ "deployed_utc": "2026-11-05T16:14:30.431399Z",
+ "compatibility_date": null,
+ "retrieved_utc": "2026-11-05T19:20:28.433148Z",
+ "retrieval_method": "GET /accounts/771ee2cc20f09248129114b7535b2cc9/workers/scripts/orproxy (multipart, part name=\"worker.js\")",
+ "account_id": "771ee2cc20f09248129114b7535b2cc9",
+ "bundle_sha256": "94ce71cb32fc2e3913ab48701c3cc9f54e18093df62c06adaf55546d98b2b6f6",
+ "bundle_bytes": 504,
+ "workers_dev": {
+  "enabled": true,
+  "previews_enabled": true
+ },
+ "bindings": [
+  {
+   "name": "ADMIN_SECRET",
+   "type": "secret_text"
+  },
+  {
+   "name": "OPENROUTER_API_KEY",
+   "type": "secret_text"
+  },
+  {
+   "environment": "production",
+   "name": "PROXY",
+   "service": "ai-proxy",
+   "type": "service"
+  },
+  {
+   "name": "TEP",
+   "secret_name": "TRUTH_ENGINE_PROMPT",
+   "store_id": "7073bd5852014f83875874ae3ff0817e",
+   "type": "secrets_store_secret"
+  }
+ ],
+ "version_history": "evidence/versions_orproxy.json (43 versions archived, latest=43)",
+ "evidence_archive": "evidence/bundles + evidence/manifest.json",
+ "sealed_archive": "evidence/sealed/incident-MSB26006196",
+ "sealed_archive_digest": "74148457b1defa69caed0f92a59e18d4fb453358153f113bf76ba16dd270e79b",
+ "classification": "recovered production artifact - NOT a clean or reproducible source baseline",
+ "production_changes_at_capture": "none (read-only retrieval)"
+}
